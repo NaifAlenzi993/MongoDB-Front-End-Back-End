@@ -1,0 +1,66 @@
+#container{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#courses{
+    width: 100%;
+    display: flex;
+    margin-top: 5px;
+}
+
+#courses-all{
+    width: 50%;
+    margin-top: 25px;
+    border: 1px solid black;
+    position: relative;
+}
+
+#element{
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    width: 100px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.opt{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 2px black dashed;
+    padding: 5px;
+}
+
+#courses img {
+    width: 100px;
+    height: 100px;
+}
+
+#btn-x{
+    width: 40px;
+    padding: 2px;
+    position:absolute;
+    right: 1px;
+    background-color: red;
+    color: blanchedalmond;
+}
+
+
+.button-opt{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
